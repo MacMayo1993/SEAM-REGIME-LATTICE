@@ -6,7 +6,7 @@ import {
   checkAnnihilation,
   calculateCoherence,
   randomizeGrid
-} from './utils/latticeLogic';
+} from './UTILS/latticeLogic';
 import {
   CellState,
   Coordinate,
@@ -25,7 +25,7 @@ import { GridVisualizer } from './components/GridVisualizer';
 import { SimulationControls } from './components/SimulationControls';
 import { InfoPanel } from './components/InfoPanel';
 import { MetricsPanel } from './components/MetricsPanel';
-import { BottleMode } from './modes/bottle/BottleMode';
+import { BottleMode } from './modes/bottle/bottlemode';
 
 type AppMode = 'lattice' | 'bottle';
 

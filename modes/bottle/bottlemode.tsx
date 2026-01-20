@@ -9,7 +9,7 @@ import {
   BOTTLE_PRESETS,
   Regime,
 } from './bottle-types';
-import { initBottleState, stepBottleSim, createRng, isSimulationComplete, getWinnerName } from './bottle-sim';
+import { initBottleState, stepBottleSim, createRng, isSimulationComplete, getWinnerName } from './bottle-sims';
 import { renderBottle, drawProgressRing } from './bottle-renderer';
 import { createAnimState, updateAnimState, triggerTransition, getRegimeStatus, spawnBurst } from './bottle-anim';
 

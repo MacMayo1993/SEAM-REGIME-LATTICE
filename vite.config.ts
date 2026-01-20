@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 
 export default defineConfig({
   // Base path for GitHub Pages (repo name)
-  base: '/Seam-Lattice/',
+  base: '/SEAM-REGIME-LATTICE/',
   server: {
     port: 3000,
     host: '0.0.0.0',
