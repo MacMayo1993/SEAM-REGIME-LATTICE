@@ -2,11 +2,11 @@
 
 ## Issue: Getting 403 Forbidden Error
 
-If you're seeing a **403 Forbidden** error when accessing `https://macmayo1993.github.io/Seam-Lattice/`, this means GitHub Pages is not properly configured. Follow these steps:
+If you're seeing a **403 Forbidden** error when accessing `https://macmayo1993.github.io/SEAM-REGIME-LATTICE/`, this means GitHub Pages is not properly configured. Follow these steps:
 
 ### Step 1: Enable GitHub Pages (CRITICAL)
 
-1. Go to: https://github.com/MacMayo1993/Seam-Lattice/settings/pages
+1. Go to: https://github.com/MacMayo1993/SEAM-REGIME-LATTICE/settings/pages
 2. Under **"Build and deployment"** section:
    - Find the **"Source"** dropdown
    - Select **"GitHub Actions"** (NOT "Deploy from a branch")
@@ -17,7 +17,7 @@ If you're seeing a **403 Forbidden** error when accessing `https://macmayo1993.g
 
 ### Step 2: Verify the Workflow Ran
 
-1. Go to: https://github.com/MacMayo1993/Seam-Lattice/actions
+1. Go to: https://github.com/MacMayo1993/SEAM-REGIME-LATTICE/actions
 2. Look for the latest "Deploy to GitHub Pages" workflow
 3. Verify both jobs completed:
    - ✅ build
@@ -30,7 +30,7 @@ If you're seeing a **403 Forbidden** error when accessing `https://macmayo1993.g
 
 ### Step 3: Check Deployment Status
 
-1. Go to: https://github.com/MacMayo1993/Seam-Lattice/deployments
+1. Go to: https://github.com/MacMayo1993/SEAM-REGIME-LATTICE/deployments
 2. You should see a "github-pages" deployment
 3. Status should be "Active"
 4. Click on it to see the deployment URL
@@ -45,10 +45,10 @@ If you're seeing a **403 Forbidden** error when accessing `https://macmayo1993.g
 
 Your site should be accessible at:
 ```
-https://macmayo1993.github.io/Seam-Lattice/
+https://macmayo1993.github.io/SEAM-REGIME-LATTICE/
 ```
 
-**Note the trailing slash!** The base path is configured as `/Seam-Lattice/` in vite.config.ts
+**Note the trailing slash!** The base path is configured as `/SEAM-REGIME-LATTICE/` in vite.config.ts
 
 ## Common Issues and Solutions
 
@@ -73,7 +73,7 @@ https://macmayo1993.github.io/Seam-Lattice/
 - [ ] Repository Settings > Pages > Source is set to "GitHub Actions"
 - [ ] Latest workflow run shows both build and deploy jobs succeeded
 - [ ] Deployment shows as "Active" in deployments page
-- [ ] Can access https://macmayo1993.github.io/Seam-Lattice/
+- [ ] Can access https://macmayo1993.github.io/SEAM-REGIME-LATTICE/
 - [ ] No 403 or 404 errors
 
 ## Technical Details
@@ -81,7 +81,7 @@ https://macmayo1993.github.io/Seam-Lattice/
 ### What's in the build:
 - ✅ `.nojekyll` file (prevents Jekyll processing)
 - ✅ `404.html` (for SPA routing)
-- ✅ Correct base path: `/Seam-Lattice/`
+- ✅ Correct base path: `/SEAM-REGIME-LATTICE/`
 - ✅ All assets properly referenced
 
 ### Workflow permissions:
@@ -113,4 +113,4 @@ npm run build
 npm run preview
 ```
 
-This serves the production build locally at http://localhost:4173/Seam-Lattice/
+This serves the production build locally at http://localhost:4173/SEAM-REGIME-LATTICE/
